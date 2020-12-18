@@ -45,10 +45,7 @@ plot_card <- function(straight_trees, pick, file) {
       usr <- par()$usr
       par(lheight = 1.25)
       text(usr[1] + (usr[2] - usr[1]) / 5, usr[4] - (usr[4] - usr[3]) / 3,
-           paste("As we get ready to gather", "with friends and family to have",
-                 "a party, give a gift, and", "celebrate the new decade,",
-                 "it's important to remember", "to have fun, be silly, and",
-                 "to not take things too seriously.",
+           paste("Teste mensagem",
                  sep = "\n"), cex = 1.9)
       text(usr[1] + (usr[2] - usr[1]) / 1.3, usr[4] - (usr[4] - usr[3]) / 2,
            paste("This card was created by", "searching NHDPlusV2 data",
